@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
 
- *@author --> dase658@vidalibarraquer.net
+ *@author --> dase658@vidalibarraquer.nethit
  */
 package prjava02;
 
@@ -28,6 +28,7 @@ public class Prjava02 {
             System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
             System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
             System.out.println("Versió OS: " + System.getProperty("os.version"));
+            System.out.println("Creació d'una branca del projecte prjavaSerrano02");
         }
         catch (IOException e) {
 		System.out.println("Exception occurred");
